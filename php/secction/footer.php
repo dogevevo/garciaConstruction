@@ -59,7 +59,7 @@
                         <div class="widget-content contact_list">
                             <!-- item -->
                             <div class="contact-widget-item d-inline-flex align-items-center">
-                                <div class="contact-icon-widget"> <i class="flaticon-phone-call"></i>
+                                <div class="contact-icon-widget">
                                 </div>
                                 <div class="contact-content-widget">
                                     <p><?php echo $Phone?></p>
@@ -67,7 +67,7 @@
                             </div>
                             <!-- item  -->
                             <div class="contact-widget-item d-inline-flex align-items-center">
-                                <div class="contact-icon-widget"> <i class="flaticon-email"></i>
+                                <div class="contact-icon-widget">
                                 </div>
                                 <div class="contact-content-widget">
                                     <p><?php echo $Mail?></p>
@@ -75,11 +75,24 @@
                             </div>
                             <!-- item  -->
                             <div class="contact-widget-item d-inline-flex align-items-center">
-                                <div class="contact-icon-widget"> <i class="flaticon-pin"></i>
-                                </div>
-                                <div class="contact-content-widget">
-                                    <p><?php echo $Address?></p>
-                                </div>
+                                <div class="contact-icon-widget"> </div>
+                                <div class="contact-content-widget"><p><?php echo $Address?></p></div>
+                            </div>
+                            <div class="contact-widget-item d-inline-flex align-items-center">
+                                <div class="contact-icon-widget"> </div>
+                                <div class="contact-content-widget"><p><?php echo $Payment?></p></div>
+                            </div>
+                            <div class="contact-widget-item d-inline-flex align-items-center">
+                                <div class="contact-icon-widget"> </div>
+                                <div class="contact-content-widget"><p><?php echo $Experience?></p></div>
+                            </div>
+                            <div class="contact-widget-item d-inline-flex align-items-center">
+                                <div class="contact-icon-widget"></div>
+                                <div class="contact-content-widget"><p><?php echo $Cover?></p></div>
+                            </div>
+                            <div class="contact-widget-item d-inline-flex align-items-center">
+                                <div class="contact-icon-widget"></div>
+                                <div class="contact-content-widget"><p><?php echo $Schedule?></p></div>
                             </div>
                             <!-- item  -->
                         </div>
@@ -107,7 +120,7 @@
                         <h2 class="widget-title">Our Services</h2> 
                         <div class="footer-menu">
                             <ul>
-                                <?php for($i = 1; $i <= 5; $i++) {?>
+                                <?php for($i = 1; $i <= 4; $i++) {?>
                                     <li><a href="services.php"><?php echo $SN[$i]?></a></li>
                                 <?php }?>
                             </ul>

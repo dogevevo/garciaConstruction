@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="row">
-                <?php for ($i=1; $i <= 6; $i++) { ?> 
+                <?php for ($i=1; $i <= 4; $i++) { ?> 
                     <div class="col-xl-4 col-md-6 mb-30">
                         <div class="service-item"> <i class="flaticon-maintenance"></i>
                             <h3><?php echo $SN[$i]?></h3>

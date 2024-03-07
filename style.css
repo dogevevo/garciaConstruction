@@ -496,7 +496,7 @@ Banner
 }
 .banner-right {
 	position: absolute;
-	background: url("assets/img/banner-right.png");
+	/* background: url("assets/img/banner-right.png"); */
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center left;

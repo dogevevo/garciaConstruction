@@ -31,8 +31,8 @@
 							</li>
 							<li>
 								<h3>Call Us</h3> 
-								<p>+(141 - 589) - 548</p>
-								<p>+(111 - 709) - 095</p>
+								<p><?php echo $Phone?></p>
+								
 							</li>
 						</ul>
 					</div>
@@ -44,8 +44,8 @@
 							</li>
 							<li>
 								<h3>Email Drop Us</h3> 
-								<p>infobuildkon@gmail.com</p>
-								<p>buildkon@gmail.com</p>
+								<p><?php echo $Mail?></p>
+								
 							</li>
 						</ul>
 					</div>
@@ -57,7 +57,7 @@
 							</li>
 							<li>
 								<h3>Location</h3>
-								<p>GV5F+9M Mitcham United Kingdom</p>
+								<p><?php echo $Address?></p>
 							</li>
 						</ul>
 					</div>
@@ -76,7 +76,7 @@
 					<div class="form-left md-mb-40">
 						<div class="get-in-touch-left section-title mb-15"> <span>\\ Get In touch</span>
 							<h2>We are always Ready for your solution</h2>
-							<p>Mauris sed purus quis odio lacinia pellentesque id sodales nibh. Fusce sit amet turpis nulla. Vestibulum tristique sagittis arcu a auctor nulla site</p>
+							<p><?php echo $Contact[0]?></p>
 						</div>
 						<div class="follow-us">
 							<h4 class="mb-20">Follow Us :</h4>

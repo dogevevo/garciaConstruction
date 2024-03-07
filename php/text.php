@@ -44,7 +44,7 @@ elseif ($page_name=='contact.php') {$namepage="Contact Us";}
 
 		
 //Phrases
-	$Description="";	
+	$Description="Welcome to $Company";	
  	$Phrase = array(	
 		"",
 		"",
@@ -74,15 +74,15 @@ elseif ($page_name=='contact.php') {$namepage="Contact Us";}
 		);
 
 	$AboutText = array (
-		"",
-		"",
+		"At $Company, we pride ourselves on being a trusted leader in the construction industry. With years of experience and a dedication to excellence, we are committed to delivering top-quality construction solutions for our clients.",
+		"Founded on principles of integrity, quality, and innovation, $Company has established itself as a premier construction company. Our team of skilled professionals brings a wealth of knowledge and expertise to every project, ensuring exceptional results and customer satisfaction.",
 		"",
 		"",
 		"",
 	);
 
 	$Contact = array (
-		"",
+		"At $Company, we are passionate about construction and dedicated to turning our clients' visions into reality. Contact us today to learn more about our services and how we can help you with your next construction project.",
 	); 	
 
 
@@ -90,16 +90,16 @@ elseif ($page_name=='contact.php') {$namepage="Contact Us";}
 
 	//Services
 	$SN[1]="Remodeling";
-	$SD[1]="";
+	$SD[1]="Whether you're looking to update a single room or renovate your entire property, our remodeling services can turn your ideas into reality. From design concept to final execution, our team will work closely with you to create a space that reflects your unique style and meets your needs.";
 	
 	$SN[2]="Painting";
-	$SD[2]="";
+	$SD[2]="Enhance the aesthetic appeal and value of your property with our professional painting services. Whether it's a residential home or commercial building, our skilled painters will deliver flawless results that breathe new life into your space.";
 
 	$SN[3]="Power Washing";
-	$SD[3]="";
+	$SD[3]="Restore the beauty of your exterior surfaces with our power washing services. From siding and decks to driveways and sidewalks, we use high-powered equipment and environmentally friendly solutions to remove dirt, grime, and stains, leaving your property looking fresh and clean.";
 	
 	$SN[4]="Framing";
-	$SD[4]="";	
+	$SD[4]="The foundation of any construction project, framing sets the stage for the entire structure. Our framing services ensure precision and durability, providing a solid framework for your project that meets or exceeds industry standards.";	
 	
 
 
